@@ -10,18 +10,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.banner{
+.banner {
     background-repeat: no-repeat;
     background-size: cover;
     width: 82.50%;
     height: 720px;
     margin: 120px auto 0px;
 }
+
 p {
     font-size: 24px;
 }
 
-.btn{
+.btn {
     padding: 16px 30px;
     border: none;
     border-radius: 5px;
@@ -29,7 +30,7 @@ p {
     transition: .5s;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: rgb(248, 120, 120);
 }
 
@@ -120,16 +121,16 @@ p {
 
 /* address banner */
 
-.party-address{
+.party-address {
     background-image: linear-gradient(rgb(243, 192, 192), rgb(255, 216, 216));
     border-radius: 20px;
 }
 
-#place-color{
+#place-color {
     color: #F00;
 }
 
-.address{
+.address {
     text-align: center;
     width: 60%;
     max-width: 800px;
@@ -137,7 +138,55 @@ p {
     padding: 300px 0;
 }
 
-.address p{
+.address p {
     line-height: 30pt;
     margin-bottom: 30px;
+}
+
+/* new best offer design */
+
+.new-best-offer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#new-best-offer-text-left {
+    width: 48%;
+    max-width: 394px;
+}
+
+#new-best-offer-image {
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#header {
+    color: #F00;
+    font-family: Inter;
+}
+
+.heading {
+    margin: 20PX 0;
+}
+
+#new-best-offer-text-left h2 {
+    color: #070211;
+    font-size: 48px;
+}
+
+#new-best-offer-text-right {
+    width: 48%;
+    max-width: 394px;
+}
+
+#new-best-offer-text-right p {
+    margin-bottom: 25px;
+}
+
+.col2024 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
 }
