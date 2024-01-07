@@ -190,3 +190,44 @@ p {
     font-family: Inter;
     font-size: 48px;
 }
+
+/* best gift section */
+
+.best-gift {
+    width: 82.50%;
+    margin: 120px auto 120px;
+}
+
+#best-gift-paragraph {
+    width: 48%;
+    max-width: 896px;
+    margin-bottom: 25px;
+}
+
+#title-paragraph {
+    color: #F00;
+    font-family: Inter;
+}
+
+.best-gift-text h2 {
+    color: #070211;
+    font-size: 48px;
+    margin: 20PX 0;
+}
+
+.best-gift-image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.single-image{
+    padding: 40px 0 0;
+}
+
+.img:hover{
+    opacity: 0.5;
+    transition: 0.9;
+}
