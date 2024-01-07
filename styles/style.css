@@ -27,6 +27,7 @@ p {
     border: none;
     border-radius: 5px;
     background-color: rgb(250, 29, 29);
+    cursor: pointer;
     transition: .5s;
 }
 
@@ -149,6 +150,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 150px;
 }
 
 #new-best-offer-text-left {
@@ -195,7 +197,7 @@ p {
 
 .best-gift {
     width: 82.50%;
-    margin: 120px auto 120px;
+    margin: 120px auto 0px;
 }
 
 #best-gift-paragraph {
@@ -215,7 +217,7 @@ p {
     margin: 20PX 0;
 }
 
-.best-gift-image{
+.best-gift-image {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -223,11 +225,57 @@ p {
     justify-content: space-around;
 }
 
-.single-image{
+.single-image {
     padding: 40px 0 0;
 }
 
-.img:hover{
+.img:hover {
     opacity: 0.5;
     transition: 0.9;
 }
+
+/* subscribe newsletter section */
+
+.subscribe-newsletter {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 0;
+    height: 616px;
+}
+
+.subscribe-newsletter-text {
+    width: 48%;
+    max-width: 896px;
+    margin: auto;
+}
+
+.subscribe-newsletter-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    margin: 40px 0 20px;
+}
+
+.subscribe-newsletter-text form{
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+}
+.subscribe-newsletter-text form input{
+    flex-grow: 1;
+    flex-grow: 1;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 10px;
+    font-size: 20px;
+    height: 50px;
+    outline: 1px solid;
+}
+
+.subscribe-newsletter-text form #subscribe-btn{
+    height: 73px;
+    border-radius: 5px 50px 50px 0px;
+    left: -5%;
+}
+
