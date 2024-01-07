@@ -278,4 +278,43 @@ p {
     border-radius: 5px 50px 50px 0px;
     left: -5%;
 }
+/* footer design */
+footer{
+    color: #FFF;
+    background-color: #070211;
+}
 
+.footer-address{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px;
+}
+
+#footer-address-peragraph{
+    width: 48%;
+    max-width: 500px;
+}
+
+.phone{
+    display: inline-block;
+}
+.web{
+    display: inline-block;
+}
+
+.h{
+    height: 1px;
+    width: 80%;
+    margin: 10px auto 0;
+    background-color: #FFF;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.footer-img{
+    margin-right: 30px;
+}
