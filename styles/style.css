@@ -144,6 +144,73 @@ p {
     margin-bottom: 30px;
 }
 
+/* holiday sales section */
+
+.holidays-sale{
+    width: 82.50%;
+    height: 900px;
+    margin: 120px auto 0px;
+}
+
+.holiday-sale-text {
+    width: 81%;
+    max-width: 1068px;
+    text-align: center;
+    margin: auto;
+}
+
+.holiday-sale-text h2 {
+    color: #070211;
+    font-size: 72px;
+    margin: 30px auto;
+}
+
+#holidays-font-color {
+    color: #F00;
+}
+
+.holiday-deals-image{
+    position: relative;
+}
+
+.Rectangle1{
+    background-image: url('../images/Rectangle\ 1.png');
+    width: 100%;
+    height: 433px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#offer{
+    background-image: url('../images/Group\ 44.png');
+    width: 100%;
+    height: 270px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 63%;
+    top: 5%;
+}
+
+.Rectangle2{
+    background-image: url('../images/Rectangle\ 2.png');
+    width: 100%;
+    height: 229px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.group75{
+    background-image: url('../images/Group\ 75.png');
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: absolute;
+    
+}
+
+
+
 /* new best offer design */
 
 .new-best-offer-container {
