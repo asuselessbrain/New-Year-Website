@@ -171,6 +171,7 @@ p {
 
 .holiday-deals-image{
     position: relative;
+    margin-top: 40px;
 }
 
 .Rectangle1{
@@ -193,10 +194,11 @@ p {
 
 .Rectangle2{
     background-image: url('../images/Rectangle\ 2.png');
+    background-size: cover;
     width: 100%;
     height: 229px;
+    border-radius: 20px 0px 20px 20px;
     background-repeat: no-repeat;
-    background-position: bottom;
 }
 
 .group75{
@@ -206,7 +208,6 @@ p {
     background-repeat: no-repeat;
     background-position: left;
     position: absolute;
-    
 }
 
 
@@ -270,6 +271,7 @@ p {
 #best-gift-paragraph {
     width: 48%;
     max-width: 896px;
+    text-align: justify;
     margin-bottom: 25px;
 }
 
