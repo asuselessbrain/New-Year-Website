@@ -271,7 +271,7 @@ p {
 #best-gift-paragraph {
     width: 48%;
     max-width: 896px;
-    text-align: justify;
+    /* text-align: justify; */
     margin-bottom: 25px;
 }
 
