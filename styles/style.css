@@ -15,6 +15,7 @@
     background-size: cover;
     width: 82.50%;
     height: 720px;
+    border-radius: 20px;
     margin: 120px auto 0px;
 }
 
@@ -26,20 +27,20 @@ p {
     padding: 16px 30px;
     border: none;
     border-radius: 5px;
-    background-color: rgb(250, 29, 29);
+    background-color: rgb(248, 120, 120);
     cursor: pointer;
     transition: .5s;
 }
 
 .btn:hover {
-    background-color: rgb(248, 120, 120);
+    background-color: rgb(250, 29, 29);
 }
 
 
 /* banner design */
 
 .banner1 {
-    background-image: url('../images/Banner\ Image.png');
+    background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(5, 5, 5, 0.5)), url('../images/Banner\ Image.png');
 }
 
 .banner-text {
@@ -50,13 +51,13 @@ p {
 }
 
 .banner-text h1 {
-    color: #00ffea;
+    color: #ffffff;
     text-align: center;
     font-size: 72px;
 }
 
 .banner-text p {
-    color: #01ffea;
+    color: #ffffff;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
@@ -94,7 +95,7 @@ p {
 
 /* welcome party banner */
 .banner2 {
-    background-image: url('../images/Vectorrr.png');
+    background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(5, 5, 5, 0.5)), url('../images/Vectorrr.png');
 }
 
 .placement {
@@ -124,7 +125,6 @@ p {
 
 .party-address {
     background-image: linear-gradient(rgb(243, 192, 192), rgb(255, 216, 216));
-    border-radius: 20px;
 }
 
 #place-color {
@@ -184,7 +184,7 @@ p {
 }
 
 #new-best-offer-text-right p {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .col2024 {
@@ -258,12 +258,13 @@ p {
     margin: 40px 0 20px;
 }
 
-.subscribe-newsletter-text form{
+.subscribe-newsletter-text form {
     max-width: 800px;
     margin: 50px auto;
     display: flex;
 }
-.subscribe-newsletter-text form input{
+
+.subscribe-newsletter-text form input {
     flex-grow: 1;
     flex-grow: 1;
     border: none;
@@ -274,48 +275,50 @@ p {
     outline: 1px solid;
 }
 
-.subscribe-newsletter-text form #subscribe-btn{
+.subscribe-newsletter-text form #subscribe-btn {
     height: 73px;
     border-radius: 5px 50px 50px 0px;
     left: -5%;
 }
+
 /* footer design */
-footer{
+footer {
     color: #FFF;
     background-color: #070211;
 }
 
-.footer-address{
+.footer-address {
     display: flex;
     justify-content: space-between;
     padding: 100px 140px;
 }
 
-#footer-address-peragraph{
+#footer-address-peragraph {
     width: 48%;
     max-width: 500px;
 }
 
-.phone{
-    display: inline-block;
-}
-.web{
+.phone {
     display: inline-block;
 }
 
-.h{
+.web {
+    display: inline-block;
+}
+
+.h {
     height: 1px;
     width: 80%;
     margin: 10px auto 0;
     background-color: #FFF;
 }
 
-.footer-link{
+.footer-link {
     display: flex;
     justify-content: center;
     margin: 30px auto;
 }
 
-.footer-img{
+.footer-img {
     margin-right: 30px;
 }
